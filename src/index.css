@@ -1,0 +1,38 @@
+
+
+body{
+    background-color: blue;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 4cm;
+    box-shadow: 3px 3px black;
+    
+    
+}
+
+.about{
+    width: 80px;
+    height: auto;
+    margin-left: 70%;
+    
+}
+.settings{
+    width: 80px;
+    height: auto;
+    margin-left: 80%;
+    margin:0% ;
+    
+}
+.main{
+    width: 80px;
+    height: auto;
+    margin-left: 95%;
+    margin:0% ;
+    
+}
+
+    
