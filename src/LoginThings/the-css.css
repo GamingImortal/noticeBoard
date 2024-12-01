@@ -1,0 +1,84 @@
+nav, header, main, footer{
+    margin: 0;
+    padding: 0;
+    }
+
+@keyframes colorChanges {
+    0%{background-color: skyblue;}
+    50%{background-color: blue;}
+}
+@keyframes shadowChanges {
+    0%{box-shadow: skyblue 3px 3px 3px;}
+    50%{box-shadow: blue 3px 3px 3px}}
+
+@keyframes fontChanges {
+    0%{color: skyblue;}
+    50%{color: blue;}
+}
+@keyframes fontChange {
+    0%{color: white;}
+    50%{color: black;}
+}
+
+.stu_lec{
+  position: relative;
+  
+    background-color: skyblue;
+    animation: colorChanges 13s  infinite reverse;  
+    height: -35px;
+    width:  35%;
+    display: inline-flex;
+    padding: 4%;
+    box-shadow: black 3px 3px 3px ;
+    border-radius: 3%;
+    margin-top: 290px;
+    margin-left: 80px;
+    font-size: 18px;
+    color: black;
+    font-family: fantasy;
+    box-shadow: rgb(67, 96, 223) 6px 6px 6px;
+}
+
+  
+.backToLogin{
+    position: relative;
+    margin-top: 90px;
+    margin-left: 550px;
+    font-family: fantasy;
+    color: skyblue;
+    color: blue;
+    animation: fontChanges 13s infinite;
+}
+.studentSubmit{
+    position: relative;
+  justify-content: center;
+    background-color: skyblue;
+    animation: colorChanges 13s  infinite reverse;  
+    height: -35px;
+    width:  35%;
+    display: inline-flex;
+   padding: 6%;
+    box-shadow: black 3px 3px 3px ;
+    border-radius: 5%;
+    margin-top: 200px;
+    margin-left: 340px;
+    font-size: 18px;
+    color: black;
+    font-family: fantasy;
+    box-shadow: rgb(67, 96, 223) 6px 6px 6px;
+}
+
+.backlog{
+    position: relative;
+    margin-top: 6px;
+    margin-left: 550px;
+    font-family: fantasy;
+    color: skyblue;
+    animation: fontChanges 13s infinite;
+}
+.loginlinks{
+    animation: fontChanges 13s infinite;
+}
+.backlog:hover{
+    font-size: x-large;
+}

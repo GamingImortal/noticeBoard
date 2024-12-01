@@ -10,15 +10,34 @@ body{
     width: 100%;
     height: 4cm;
     box-shadow: 3px 3px black;
-    
-    
 }
+
+    @keyframes glow {
+        0%{text-shadow:3px 3px 3px lightblue}
+        25%{text-shadow:4px 4px 4pxrgb(5, 173, 251)}
+        50%{text-shadow:5px 5px 5px rgb(5, 173, 251)}
+        75%{text-shadow:4px 4px 4px rgb(5, 173, 251)}
+        100%{text-shadow:3px 3px 3px rgb(5, 173, 251)}
+    }
+    .HeaderHeading{
+        padding-left: 20%;
+        padding-top: 2%;
+        font-size: larger;
+        font-family: fantasy;
+        color: blue;
+        
+        animation: glow 10s  infinite reverse ;
+    }
+
 
 .about{
     width: 80px;
     height: auto;
     margin-left: 70%;
-    
+}
+.set{
+    margin-left: 10%;
+    gap:10% ;
 }
 .settings{
     width: 80px;
@@ -34,5 +53,77 @@ body{
     margin:0% ;
     
 }
-
+.HeadBody{
+   margin-top: 15%;
+   column-gap: 20cm;
+    width: 400px;
+    height: 400px;
+    box-shadow: 3px 3px 3px blue;
+    border-radius: 10%;
     
+      
+}
+.HeadBodyPics{
+    margin-top: 05%;
+    
+    margin-left: 13px;
+     width: 350px;
+     height: 370px;
+    
+     border-radius: 10%;
+       
+ }
+
+.Featured{
+   display: inline-flex;
+}
+
+.posts{
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 80%;
+    height: 700px;
+    box-shadow: 3px 3px 3px blue;
+    border-radius: 3%;
+}
+.allPosts{
+
+    margin-top: 13%;
+}
+
+.postSize{
+    margin-left: 1%;
+    margin-top: 10%;
+    width: 50%;
+    height: 450px;
+    box-shadow: 3px 3px 3px blue;
+    border-radius: 3%;
+}
+.expandable{
+    margin-left: 60%;
+    margin-top: -450px;
+    color: blue;
+    width: 30%;
+    height: auto;
+    border-radius: 3%;
+}
+
+.search{
+    position: sticky; /* Enable sticky positioning */
+    top: 0px;          /* Position from the top of the viewport */
+    padding: 10px;  /* Padding for aesthetics */
+    z-index: 1000; 
+    width: 40%;
+    margin-top: 32%;
+    margin-left: 35%;
+    height: 40%;
+    
+    
+}
+.searchBar{
+    width: 40%;
+    margin-top: 25%;
+    margin-left: 1%;
+    height: 40%;
+    
+}

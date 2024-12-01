@@ -1,5 +1,11 @@
+import { useState } from "react";
 import "./App.css";
-import Header from "./Components/Header";
+import HeadBody from "./Components/views/Featured/HeadBody";
+import Header from "./Components/views/Header/Header";
+import Posts from "./Components/views/Posts/Posts";
+import usBookSearch from "./usBookSearch";
+import { produce } from "immer";
+import TextInputDisplay from "./Components/views/TextInputDisplay";
 
 function App() {
   return (
@@ -8,7 +14,10 @@ function App() {
         {/*navbar**/}
         <Header />
         {/*featured posts*/}
+        <HeadBody />
+        {/*expandableRext*/}
         {/*posts*/}
+        <Posts />
       </div>
     </>
   );
